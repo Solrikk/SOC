@@ -1,0 +1,16 @@
+Time of Activity:  05/21/2025 18:19:05.354
+
+List of Related Entities:  
+Sender: support@tryhatme.com
+Recipient: barker@headlinehats.com
+Direction: Outbound Email
+Datasource: emails
+Host: 10.10.183.246:8989
+Sourcetype: _json
+
+Reason for Classifying as False Positive: 
+This email was flagged due to its metadata being processed for potential sensitive content. However, after review, the message is determined to be a legitimate business communication. The subject line references an interview request for a company spotlight article, which aligns with normal outreach behavior. Additionally, the following indicators support the false positive classification:
+- The email has no attachment, minimizing the likelihood of phishing/malware.
+- The content was removed in accordance with privacy/security policies, but no known indicators of compromise (IoCs) are present in the metadata.
+- The sender and recipient domains appear legitimate and business-related.
+- The direction is outbound, and there is no evidence of data exfiltration or suspicious payloads.
